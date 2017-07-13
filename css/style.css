@@ -1,0 +1,192 @@
+.home-body {
+    background-color: #525aa4;
+}
+
+.top-container {
+    margin-top: 3%;
+}
+
+.top-bar-container-left {
+    width: 100%;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.top-bar-container-right {
+    width: 100%;
+    padding-right: 30%;
+    padding-top: 3%;
+}
+
+.header-top-bar {
+	height: 3px;
+	background-color: #fae586;
+}
+
+.navbar-content-text {
+    font-family: Montserrat, serif;
+    font-size: 1em;
+    text-align: center;
+    color: #fae586;
+}
+
+.page-body .navbar-content-text {
+    color: #000000;
+}
+
+.navbar-content-text:hover{
+    text-decoration: none;
+}
+
+.center-text-container {
+    margin-top: 5%;
+}
+
+.center-text-style {
+	font-family: Montserrat, serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #fae586;
+    text-align: center;
+}
+
+.center-text-style .center-text-highlighted {
+    color: #c6c6c6;
+}
+
+.ai-container {
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.cmd-top {
+    width: 100%;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cmd-bottom {
+    height: 30%;
+	background-color: #383737;
+}
+
+.cmd-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.cmd-container .cmd-text {
+	font-family: Montserrat, serif;
+	font-size: 1em;
+	color: #fafafa;
+}
+
+.cmd-container .cmd-input {
+    background: 0 0;
+    outline: 0;
+    border: 0;
+    font-family: Montserrat, serif;
+    color: #fafafa;
+    text-shadow: 0 0 0 #444;
+    font-size: 1em;
+    position: absolute;
+}
+
+.next-arrow-container {
+    margin-top: 3%;
+}
+
+#next-arrow {
+    width: 120px;
+    height: 120px;
+}
+
+.about-container {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.about-container .about-col {
+    /*height: 30%;*/
+}
+
+.about-heading-text {
+    font-family:  Merriweather, serif;
+	font-size: 2em;
+	font-weight: 900;
+	color: #000000;
+}
+
+.about-mini-text-container {
+    margin-top: 2%;
+}
+
+.about-mini-text {
+    font-family: Montserrat, serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #666666;
+}
+
+.about-text-container {
+    margin-top: 3%;
+}
+
+.about-text {
+	font-family: Montserrat, serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #3f1111;
+}
+
+.page-body {
+    background-color: #fafafa;
+}
+
+.about-image-container {
+    /*margin-left: 30px;*/
+}
+
+.about-image {
+    /*width: 40%;
+    height: 40%;*/
+}
+
+.social-container {
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*.icon-bg {
+    border: 3px solid #FF3C6C;
+}
+
+.social-icon {
+	font-size: 5em;
+	color: #ff3c6c;
+}*/
+.icon-wrapper svg:hover circle {
+  fill: #FF3C6C;
+}
+
+.icon-wrapper svg:hover text {
+  fill: #FAFAFA;
+}
+/*.icon-wrapper:hover circcle {
+    fill: "#FF3C6C";
+}
+
+.icon-wrapper:hover text {
+    fill: "#FAFAFA";
+}*/
