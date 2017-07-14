@@ -176,6 +176,11 @@
 	font-size: 5em;
 	color: #ff3c6c;
 }*/
+
+.icon-wrapper {
+    display: inline-block;
+}
+
 .icon-wrapper svg:hover circle {
   fill: #FF3C6C;
 }
