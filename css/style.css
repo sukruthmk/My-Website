@@ -1,67 +1,66 @@
-.home-body {
-    background-color: #525aa4;
+body, html {
+    height: 100%;
 }
 
-.top-container {
-    margin-top: 3%;
+.bg-purple {
+  min-height: 4rem;
+  background-color: #563d7c;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
 }
 
-.top-bar-container-left {
-    width: 100%;
-    padding-left: 30%;
-    padding-top: 3%;
+.bd-navbar .navbar-nav .nav-link {
+    color: #cbbde2;
 }
 
-.top-bar-container-right {
-    width: 100%;
-    padding-right: 30%;
-    padding-top: 3%;
+.bd-navbar .navbar-nav .nav-link.active, .bd-navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: transparent;
 }
 
-.header-top-bar {
-	height: 3px;
-	background-color: #fae586;
+.bd-navbar .navbar-nav .nav-link.active {
+  font-weight: 500;
 }
 
-.navbar-content-text {
-    font-family: Montserrat, serif;
-    font-size: 1em;
-    text-align: center;
-    color: #fae586;
+/* The hero image */
+.hero-container {
+    /* Set the hero background-color */
+    background-color: #563d7c;
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* position the backgorud*/
+    /* position: relative; */
 }
 
-.page-body .navbar-content-text {
-    color: #000000;
+/* Transparent navbar */
+.bg-transparent {
+    background-color: transparent;
 }
 
-.navbar-content-text:hover{
-    text-decoration: none;
+/* Custom navbar-toggler CSS */
+.navbar-toggler-custom {
+    border: none;
 }
 
-.center-text-container {
-    margin-top: 5%;
+/* Hero text styling */
+.hero-text-container {
+    padding-top: 100px;
 }
 
-.center-text-style {
-	font-family: Montserrat, serif;
-	font-size: 1.5em;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #fae586;
-    text-align: center;
-}
-
-.center-text-style .center-text-highlighted {
+/* Text text-highlighted */
+.hero-text-highlighted {
     color: #c6c6c6;
 }
 
+/* Place text in the middle of the image */
+.hero-text {
+    font-family: Montserrat, serif;
+	color: #fae586;
+}
+
 .ai-container {
-    margin-top: 4%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 40px;
 }
 
 .cmd-top {
@@ -73,15 +72,12 @@
 }
 
 .cmd-bottom {
-    height: 30%;
 	background-color: #383737;
+    padding: 15px;
 }
 
 .cmd-container {
-    width: 100%;
-    height: 100%;
-    padding-left: 4%;
-    padding-top: 2%;
+    padding-left: 10px;
 }
 
 .cmd-container .cmd-text {
@@ -101,34 +97,21 @@
     position: absolute;
 }
 
-.next-arrow-container {
-    margin-top: 3%;
-}
-
-#next-arrow {
-    width: 120px;
-    height: 120px;
-}
-
+/* About page */
 .about-container {
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-
-.about-container .about-col {
-    /*height: 30%;*/
+    height: 100%;
+    padding-top: 50px;
 }
 
 .about-heading-text {
     font-family:  Merriweather, serif;
-	font-size: 2em;
+	font-size: 2rem;
 	font-weight: 900;
 	color: #000000;
 }
 
 .about-mini-text-container {
-    margin-top: 2%;
+    margin-top: 15px;
 }
 
 .about-mini-text {
@@ -139,7 +122,7 @@
 }
 
 .about-text-container {
-    margin-top: 3%;
+    margin-top: 15px;
 }
 
 .about-text {
@@ -149,98 +132,137 @@
 	color: #3f1111;
 }
 
-.page-body {
-    background-color: #fafafa;
+.about-image-wrapper {
+    margin-top: 10px;
 }
 
-.about-image-container {
-    /*margin-left: 30px;*/
+.social-wrapper {
+  display: inline-flex;
+  margin-top: 15px;
+  padding: 0;
 }
 
-.about-image {
-    /*width: 40%;
-    height: 40%;*/
+.social-wrapper i {
+  padding: 0px 15px;
 }
 
-.social-container {
-    margin-top: 6%;
-    margin-right: 10%;
-    margin-left: 10%;
+.social-wrapper .social-icon {
+    font-size: 3rem;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
 }
 
-/*.icon-bg {
-    border: 3px solid #FF3C6C;
+.social-wrapper .social-icon:hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
 }
 
-.social-icon {
-	font-size: 5em;
-	color: #ff3c6c;
-}*/
-
-.icon-wrapper {
-    display: inline-block;
+.social-wrapper .social-icon-facebook {
+    color: #4867AA;
 }
 
-.icon-wrapper svg:hover circle {
-  fill: #FF3C6C;
+.social-wrapper .social-icon-twitter {
+    color: #1DA1F2;
 }
 
-.icon-wrapper svg:hover text {
-  fill: #FAFAFA;
-}
-/*.icon-wrapper:hover circcle {
-    fill: "#FF3C6C";
+.social-wrapper .social-icon-github {
+    color: #444;
 }
 
-.icon-wrapper:hover text {
-    fill: "#FAFAFA";
-}*/
+.social-wrapper .social-icon-instagram {
+    color: #125688;
+}
+
+.social-wrapper .social-icon-linkedin {
+    color: #007bb5;
+}
 
 .contact-container {
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
+    height: 100%;
+    padding-top: 50px;
 }
 
-.contact-me-heading {
-	font-family: Montserrat, serif;
-	font-size: 2em;
-	font-weight: 500;
-	color: #535371;
+/* media queries for font */
+@media (min-width: 544px) {
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .ai-container {
+     font-size: 0.8rem;
+  }
+
+  .about-container {
+      padding-top: 50px;
+  }
+
+  .about-image-container {
+     margin-top: 15px;
+  }
+
+  .social-wrapper {
+      margin-top: 20px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 4rem;
+  }
 }
 
-.contact-form {
-    /*margin-top: 3%;*/
+@media (min-width: 768px) {
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .ai-container {
+      font-size: 0.9rem;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .about-container {
+      padding-top: 80px;
+  }
+
+  .about-image-container {
+     margin-top: 15px;
+  }
+
+  .social-wrapper {
+      margin-top: 40px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 5rem;
+  }
 }
 
-.contact-form .contact-input {
-	width: 300px;
-	height: 30px;
-	border: solid 1px #9b9b9b;
-    padding: 15px;
-}
+@media (min-width: 992px) {
+  .hero-text {
+    font-size: 1.4rem;
+  }
 
-.contact-form .form-input-container {
-    margin-top: 5%
-}
+  .about-container {
+      padding-top: 120px;
+  }
 
-.contact-form .contact-textarea {
-    width: 300px;
-    height: 120px;
-    border: solid 1px #9b9b9b;
-    padding: 15px;
-}
+  .ai-container {
+      font-size: 1rem;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
 
-.form-submit-container {
-    margin-top: 6%;
-    margin-left: 20%;
-}
+  .rwd-line {
+      display: block;
+  }
 
-.form-submit-container .submit-button{
-	width: 100px;
-	height: 34px;
-	border-radius: 70px;
-    font-size: 1em;
-    font-family: Montserrat, serif;
-	background-color: #009e89;
+  .social-wrapper {
+      margin-top: 60px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 5rem;
+  }
 }
