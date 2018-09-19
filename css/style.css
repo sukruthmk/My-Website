@@ -182,6 +182,47 @@ body, html {
 .contact-container {
     height: 100%;
     padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact-me-heading {
+	font-family: Montserrat, serif;
+	font-size: 2em;
+	font-weight: 500;
+	color: #535371;
+}
+
+.contact-form .contact-input {
+	width: 300px;
+	height: 30px;
+	border: solid 1px #9b9b9b;
+    padding: 15px;
+}
+
+.contact-form .form-input-container {
+    margin-top: 15px;
+}
+
+.contact-form .contact-textarea {
+    width: 300px;
+    height: 120px;
+    border: solid 1px #9b9b9b;
+    padding: 15px;
+}
+
+.form-submit-container {
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+.form-submit-container .submit-button{
+	width: 100px;
+	height: 34px;
+	border-radius: 70px;
+    font-size: 1em;
+    font-family: Montserrat, serif;
+	background-color: #009e89;
 }
 
 /* media queries for font */
