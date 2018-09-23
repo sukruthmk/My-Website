@@ -16,25 +16,25 @@
     <!-- My page title -->
     <title>Sukruth M K</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="50">
       <nav id="navbar" class="navbar navbar-expand-sm bg-transparent navbar-dark fixed-top bd-navbar">
           <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <!-- Links -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" data-spy="affix">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#" >Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
          </div>
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div class="container about-container">
+    <div class="container about-container" id="about">
         <div class="row">
             <div class="col-lg-8">
                 <div class="about-heading-text">
@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="container portfolio-container">
+    <div class="container portfolio-container" id="portfolio">
         <div class="row portfolio-row-container">
             <!-- Math run project -->
             <div class="col-lg-4 d-flex align-items-stretch">
@@ -184,7 +184,7 @@
         </div>
     </div>
 
-    <div class="container contact-container">
+    <div class="container contact-container" id="contact">
         <div class="row">
             <div class="col-lg-7 contact-image-container">
                 <img src="assets/contact.png" alt="contact me" />
