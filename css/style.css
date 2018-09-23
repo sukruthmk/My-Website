@@ -182,8 +182,6 @@ body, html {
 .contact-container {
     height: 100%;
     padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .contact-me-heading {
@@ -223,6 +221,21 @@ body, html {
     font-size: 1em;
     font-family: Montserrat, serif;
 	background-color: #009e89;
+}
+
+.contact-container .contact-image-container {
+
+}
+
+.contact-container .contact-form-container {
+
+}
+
+.portfolio-container {
+    padding-top: 50px;
+}
+
+.portfolio-container .portfolio-row-container {
 }
 
 /* media queries for font */
@@ -305,5 +318,26 @@ body, html {
 
   .social-wrapper .social-icon {
       font-size: 5rem;
+  }
+
+  .contact-container {
+      padding-top: 120px;
+  }
+
+  .contact-container .contact-image-container {
+      padding-left: 100px;
+  }
+
+  .contact-container .contact-form-container {
+      padding-top: 30px;
+  }
+
+  .portfolio-container {
+      padding-top: 120px;
+  }
+
+  .portfolio-container .portfolio-row-container {
+      padding-top: 15px;
+      padding-bottom: 15px;
   }
 }
