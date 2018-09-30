@@ -99,7 +99,6 @@ body, html {
 
 /* About page */
 .about-container {
-    height: 100%;
     padding-top: 50px;
 }
 
@@ -181,8 +180,8 @@ body, html {
 
 /* Contact Page */
 .contact-container {
-    height: 100%;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .contact-me-heading {
@@ -230,18 +229,21 @@ body, html {
 }
 
 .contact-container .contact-image-container {
-
+    display: none;
 }
 
 .contact-container .contact-form-container {
 
 }
 
+/* Portfolio page */
 .portfolio-container {
     padding-top: 50px;
 }
 
-.portfolio-container .portfolio-row-container {
+.portfolio-container .portfolio-col {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* media queries for font */
@@ -297,6 +299,14 @@ body, html {
   .social-wrapper .social-icon {
       font-size: 5rem;
   }
+
+  .contact-container .contact-form-container {
+      padding-top: 30px;
+  }
+
+  .contact-container .contact-image-container {
+    display: inherit;
+  }
 }
 
 @media (min-width: 992px) {
@@ -306,6 +316,11 @@ body, html {
 
   .about-container {
       padding-top: 120px;
+      height: 100%;
+  }
+
+  .contact-container {
+      height: 100%;
   }
 
   .ai-container {
@@ -332,6 +347,7 @@ body, html {
 
   .contact-container .contact-image-container {
       padding-left: 100px;
+      display: inherit;
   }
 
   .contact-container .contact-form-container {
@@ -345,5 +361,10 @@ body, html {
   .portfolio-container .portfolio-row-container {
       padding-top: 15px;
       padding-bottom: 15px;
+  }
+
+  .portfolio-container .portfolio-col {
+      margin-top: inherit;
+      margin-bottom: inherit;
   }
 }
