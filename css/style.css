@@ -210,6 +210,11 @@ body, html {
     padding: 15px;
 }
 
+.contact-container .contact-success {
+    width: 300px;
+    display: none;
+}
+
 .form-submit-container {
     margin-top: 6%;
     margin-left: 20%;
